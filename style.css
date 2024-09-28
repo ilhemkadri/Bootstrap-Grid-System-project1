@@ -1,0 +1,158 @@
+li a {
+    text-decoration: none;
+    color: brown;   
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0, 0.751);
+    height: 50px;
+    margin: 0px;
+} 
+.navbar-band{
+    margin-right: auto;
+       color: brown;
+    
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+   }
+   .nav-links li a:hover{
+    color: rgb(74, 7, 7);
+   }
+   .nav{
+    padding-top: 10px;
+   }
+   .Hero{
+    background-image: url(2.jpg);
+    height: 500px;
+    width: 1520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .title{
+    color: rgb(214, 201, 201);
+    position: relative;
+    left: 350px;
+}
+.B {
+    width: 100px;
+    position: relative;
+    left: 350px;
+    border-radius: 5px;
+    border: 1px;
+   
+}
+.B a{
+    color: black;
+    text-decoration: none;
+}
+.B a:hover{
+    color: rgb(83, 1, 1);
+   
+}
+.container-fluid{
+    display: grid;
+    justify-content: space-around;
+}
+.Menu{
+    justify-content: center;
+    display: grid
+}
+.row h4,p{
+    text-align: center;
+}
+.row img{
+    border-radius: 10px;
+}
+.col-9{
+font-size: 23px;
+padding-top: 55px;
+}
+img[alt*=Munch]{
+background-color: black;
+border-radius: 10px;
+padding: 0px;
+margin-left: 10px;
+width: 300px;
+}
+form {
+    margin: 0 auto;
+    width: 360px;
+    height: 380px;
+    border: 1px solid #000000;
+    border-radius: 1em;
+    background-image: url(BG.jpg);
+  }
+  
+  ul {
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+   margin-right: 0px;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    font-weight: 600px;
+    display: inline-block;
+    color: rgba(246, 246, 246, 0.827);
+    width: 90px;
+    text-align: left;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #040404;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+  }
+  
+  .button {
+    padding-left: 90px; 
+    padding-top: 30px;
+  }
+  
+  button {
+    background-color: rgba(251, 251, 251, 0.459);
+    margin-left: 0.5em;
+    align-content: center;
+     }
+  .contact{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-content: center;
+  }
+  
+.footer {
+    text-align: center;
+    padding: 6px;
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(110, 4, 4);
+}
+.footer {
+    font-size: 14px;
+    font-weight: bold;
+}
+  
